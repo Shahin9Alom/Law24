@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Shahin</title>
+  <meta name="title" content="Shahin Web Solutions">
+  <meta name="description" content="This is a Website crested by SHAHIN">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="hero-banner.jpg">
+  <link rel="preload" as="image" href="Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+
+<b>SHARID</b>
+
+
+
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+           <b>Mohammad Sharid</b>
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">Shahin@gmail.com</a>
+
+          <a href="tel:01864558405" class="contact-link">01864558405</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="Hero.jpg" width="560" height="540" alt="Julia" class="w-100"
+              data-reveal="top">
+
+            <img src="hero-shape.svg" width="203" height="91" alt="250+ Cases" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              আমি মোহাম্মদ শারিদ। 
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              আমি একজন এডভোকেট এবং একজন দক্ষ আইনজীবী। সর্বদাই আপনার সেবায় নিয়জিত রয়েছি।
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="https://wa.me/qr/35BDD4JOMFAXI1" class="btn btn-primary">পরামর্শ গ্রহণ করুন</a>
+
+              <a href="https://wa.me/qr/35BDD4JOMFAXI1" class="btn btn-secondary">যোগাযোগ করুন</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">আমি কে? </h2>
+
+              <p class="section-text">
+
+অ্যাডভোকেট মোহাম্মদ শারিদ।
+<br>
+বাংলাদেশের একজন অভিজ্ঞ অ্যাডভোকেট এবং ইনকাম ট্যাক্স আইনজীবী। তিনি পেশাদারিত্ব, সততা এবং দক্ষতার মাধ্যমে আইন সেবা প্রদান করেন। বিশেষত ইনকাম ট্যাক্স সংক্রান্ত বিষয় এবং অন্যান্য আইনগত সমস্যার ক্ষেত্রে তিনি সুনাম অর্জন করেছেন।
+<br>
+<br>
+আমাদের লক্ষ্য:
+<br>
+<br>
+ইনকাম ট্যাক্স সংক্রান্ত সকল আইনগত প্রক্রিয়া সহজ করা।
+
+ক্লায়েন্টদের দ্রুত এবং নিখুঁত আইনগত সমাধান প্রদান।
+
+<br>
+<br>
+আমাদের সেবা:
+<br>
+<br>
+ইনকাম ট্যাক্স ফাইলিং এবং পরিকল্পনা
+
+কর সংক্রান্ত পরামর্শ
+
+ফৌজদারি এবং দেওয়ানি মামলা পরিচালনা
+
+ব্যবসা এবং চুক্তি সংক্রান্ত আইনগত পরামর্শ
+
+
+আপনার কর এবং আইনগত সমস্যার জন্য আজই যোগাযোগ করুন। সঠিক দিকনির্দেশনা এবং সহায়তা পেতে অ্যাডভোকেট মোহাম্মদ শারিদ আপনার পাশে আছে।
+
+
+
+
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p class="gk">আইনি পরামর্শ প্রদান</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p class="gk">মামলা পরিচালনা </p>
+
+                  <span class="span">100%</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p class="gk">চুক্তি প্রস্তত ও যাচাই</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p class="gk">আইনগত গবেষণা ইত্যাদি</p>
+
+                  <span class="span"> 100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">আইনি পরামর্শ প্রদান</h3>
+
+                <p class="card-text">
+  মক্কেলদের বিভিন্ন ব্যক্তিগত, ব্যবসায়িক বা সামাজিক সমস্যা সমাধানের জন্য সঠিক আইনি দিকনির্দেশনা দেওয়া।
+
+
+
+
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">আদালতের প্রক্রিয়া অনুসরণ</h3>
+
+                <p class="card-text">
+                   আদালতের নিয়ম অনুযায়ী মামলা পরিচালনা করা, প্রয়োজনীয় নথি দাখিল করা এবং বিচার কার্যক্রমে সক্রিয় অংশগ্রহণ করা।
+
+
+
+
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">মামলা পরিচালনা</h3>
+
+                <p class="card-text">
+                   মক্কেলদের পক্ষে আদালতে মামলা দায়ের করা, শুনানি পরিচালনা করা এবং তাদের পক্ষে আইনগত যুক্তি উপস্থাপন করা।
+
+
+
+
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title"> চুক্তি প্রস্তুত ও যাচাই</h3>
+
+                <p class="card-text">
+ বিভিন্ন চুক্তি, দলিল এবং আইনি নথি তৈরি করা এবং সেগুলোর যথার্থতা যাচাই করা।
+
+
+
+
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">জনগণের জন্য কিছু গুরুত্বপূর্ণ মেসেজ </h2>
+
+              <p class="section-text">
+               নিজে সতর্ক থাকুন অন্যকে সতর্ক করুন।
+              </p>
+            </div>
+
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">কেসের বিবরণ</p>
+
+                  <h3 class="h3 card-title">পাসপোর্ট জালিয়াতি করলে শাস্তি 
+
+
+</h3>
+
+                  <p class="card-text">
+                     
+
+পাসপোর্ট জালিয়াতি একটি গুরুতর অপরাধ, যা দেশের নিরাপত্তা এবং বৈধ পাসপোর্টধারীদের অধিকার লঙ্ঘন করে। এটি পাসপোর্ট অ্যাক্ট, ১৯৭৩ এর অধীনে শাস্তিযোগ্য অপরাধ।
+
+<br>
+
+অপরাধ:
+ <br>
+ভুয়া তথ্য দিয়ে পাসপোর্ট তৈরি করা।
+
+অন্য কারও পাসপোর্ট ব্যবহার করা বা জাল পাসপোর্ট তৈরি করা।
+
+জালিয়াতির মাধ্যমে পাসপোর্ট পেতে সহায়তা করা।
+<br />
+
+<br>
+শাস্তি:
+<br>
+সর্বোচ্চ ৭ বছর কারাদণ্ড,
+
+জরিমানা,
+
+অথবা উভয় শাস্তি।
+<br>
+<br>
+বার্তা:
+<br>
+পাসপোর্ট জালিয়াতি শুধু আপনার ব্যক্তিগত ক্ষতি করবে না, এটি দেশের সম্মান এবং নিরাপত্তার জন্যও হুমকি। আইন মেনে চলুন এবং পাসপোর্ট সংক্রান্ত যেকোনো কাজ বৈধ পদ্ধতিতে সম্পন্ন করুন।
+
+
+
+
+                  </p>
+
+             
+                  
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="vector-front-cover-passport-isolated-white_1284-42900.webp" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">কেসের বিবরণ</p>
+
+                  <h3 class="h3 card-title">ট্রাফিক সিগনাল অমান্য করলে শাস্তি
+</h3>
+
+                  <p class="card-text">
+                    
+
+
+ট্রাফিক সিগনাল অমান্য করা একটি গুরুতর অপরাধ, যা শুধু আইন লঙ্ঘন নয়, বরং দুর্ঘটনার ঝুঁকি বৃদ্ধি করে এবং জনজীবনে বিশৃঙ্খলা সৃষ্টি করে। এটি বাংলাদেশ মোটরযান আইন, ২০১৮ এর অধীনে শাস্তিযোগ্য অপরাধ।
+
+<br>
+<br>
+
+অপরাধ:
+<br>
+<br>
+ট্রাফিক সিগনালে লাল বাতি অমান্য করে গাড়ি চালানো।
+
+জেব্রা ক্রসিংয়ে পথচারীদের পথ না দেওয়া।
+
+নিষিদ্ধ রাস্তায় প্রবেশ বা ইউটার্ন নেওয়া।
+<br>
+<br>
+
+শাস্তি:
+<br>
+<br>
+সর্বোচ্চ ৩ মাস কারাদণ্ড,
+
+সর্বোচ্চ ৫,০০০ টাকা জরিমানা,
+
+অথবা উভয় শাস্তি।
+
+
+কেন ট্রাফিক আইন মেনে চলা জরুরি?
+
+এটি দুর্ঘটনা এড়াতে সহায়তা করে।
+
+পথচারীদের নিরাপত্তা নিশ্চিত করে।
+
+সুষ্ঠু ও নিরবচ্ছিন্ন যানবাহন চলাচল বজায় রাখে।
+<br>
+<br>
+
+বার্তা:
+<br>
+<br>
+"ট্রাফিক আইন মানুন, নিজের জীবন ও অন্যের জীবন সুরক্ষিত রাখুন। ছোট একটি ভুল বড় বিপদ ডেকে আনতে পারে।"
+
+
+
+
+
+                  </p>
+
+                 
+
+                    
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="Traffic.jpg" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">কেসের বিবরণ</p>
+
+                  <h3 class="h3 card-title">ঘুষ গ্রহণ বা প্রদান করলে শাস্তি</h3>
+
+                  <p class="card-text">
+
+
+
+
+ঘুষ একটি সামাজিক ব্যাধি, যা নৈতিকতা নষ্ট করে এবং সমাজে অন্যায় ও দুর্নীতিকে প্রভাবিত করে। এটি বাংলাদেশ দুর্নীতি প্রতিরোধ আইন, ২০০৪ এর অধীনে শাস্তিযোগ্য অপরাধ।
+
+<br>
+<br>
+
+অপরাধ:
+<br>
+<br>
+কোনো সরকারি বা বেসরকারি কাজ সহজ করার জন্য অর্থ, উপহার বা সুবিধা গ্রহণ বা প্রদান করা।
+
+দায়িত্বের অপব্যবহার করে নিজের বা অন্য কারও জন্য অন্যায্য সুবিধা আদায় করা।
+
+ঘুষ দেওয়ার প্রস্তাব বা এটি নেওয়ার সম্মতি দেওয়া।
+
+<br>
+<br>
+শাস্তি:
+<br>
+<br>
+
+
+সর্বোচ্চ ৭ বছর কারাদণ্ড,
+
+জরিমানা,
+
+অথবা উভয় শাস্তি।
+<br>
+<br>
+
+ঘুষের পরিণতি:
+<br>
+<br>
+এটি সামাজিক ও অর্থনৈতিক উন্নয়নকে বাধাগ্রস্ত করে।
+
+যোগ্যতা ও ন্যায্যতার পরিপন্থী একটি সংস্কৃতির জন্ম দেয়।
+
+জনগণের আস্থা নষ্ট হয় এবং অন্যায়কারীদের উৎসাহিত করে।
+
+<br>
+
+বার্তা:
+<br>
+<br>
+"ঘুষ বন্ধ করুন, ন্যায়বিচার প্রতিষ্ঠা করুন। ঘুষ গ্রহণ বা প্রদান করে শুধু নিজেকে নয়, গোটা সমাজকে ক্ষতিগ্রস্ত করবেন।"
+
+
+
+
+
+                
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="front-view-commission-still-life-composition_23-2149114627.webp" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">কেসের বিবরণ</p>
+
+                  <h3 class="h3 card-title">নারী ও শিশু নির্যাতন করলে শাস্তি
+</h3>
+
+                  <p class="card-text">
+
+
+
+নারী ও শিশু নির্যাতন একটি মারাত্মক অপরাধ, যা ব্যক্তি, পরিবার এবং সমাজের স্থিতিশীলতা নষ্ট করে। এটি নারী ও শিশু নির্যাতন দমন আইন, ২০০০ এর অধীনে শাস্তিযোগ্য অপরাধ।
+<br>
+<br>
+
+অপরাধ:
+<br>
+<br>
+শারীরিক বা মানসিকভাবে কোনো নারী বা শিশুকে নির্যাতন করা।
+
+যৌন হয়রানি, ধর্ষণ বা অপহরণের মাধ্যমে তাদের অধিকার হরণ করা।
+
+যৌতুকের জন্য নির্যাতন বা হত্যা করা।
+<br>
+<br>
+
+শাস্তি:
+<br>
+<br>
+শারীরিক নির্যাতন: সর্বোচ্চ ১৪ বছর কারাদণ্ড।
+<br>
+<br>
+ধর্ষণ: মৃত্যুদণ্ড বা যাবজ্জীবন কারাদণ্ড।
+<br>
+<br>
+যৌতুকের জন্য নির্যাতন: সর্বোচ্চ ৫ বছর কারাদণ্ড বা জরিমানা বা উভয়ই।
+
+<br>
+<br>
+নারী ও শিশু নির্যাতনের প্রভাব:
+
+এটি ব্যক্তির শারীরিক ও মানসিক স্বাস্থ্যের ওপর গভীর ক্ষত সৃষ্টি করে।
+
+পরিবারে অশান্তি ও সামাজিক অবক্ষয় তৈরি করে।
+
+দেশের উন্নয়ন এবং শান্তি প্রতিষ্ঠার পথে বাধা হয়ে দাঁড়ায়।
+<br>
+<br>
+
+বার্তা:
+"নারী ও শিশু নির্যাতন বন্ধ করুন। তারা সুরক্ষিত থাকলে সমাজ এগিয়ে যাবে। ন্যায়বিচার প্রতিষ্ঠায় সচেতন হন, অন্যায়ের বিরুদ্ধে আওয়াজ তুলুন।"
+
+
+
+
+
+
+
+                  </p>
+
+
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="child-abuse_1048944-1092804.webp" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+  <!--Google map-->
+
+
+
+
+
+
+
+
+  <!--end map-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+
+
+
+
+    </article>
+    
+    
+    
+    
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+  </main>
+
+
+
+
+
+
+
+
+  
+  
+  <section class="testimonial__section">
+  <p class="testimonial__subheading"></p>
+  <h2 class="testimonial__heading">ক্লায়েন্ট আমার সম্পর্কে যা বলে। </h2>
+
+  <div class="testimonial__slider">
+    <div class="testimonial__cards">
+      <div class="testimonial__card">
+        <div class="testimonial__content">
+          <div class="testimonial__header">
+            <img src="c.jpg" alt="client" />
+            <div>
+              <h4>
+                 জিসান আহমেদ 
+              </h4>
+              <h5>ব্যবসায়ি</h5>
+            </div>
+          </div>
+          <div class="testimonial__ratings">★★★★★</div>
+          <p>
+            ২ মাস আগে আমার বড় ভাইয়ের সাথে ব্যবসা নিয়ে কিছু বড় সমস্যা হয়েছিলো,,এবং শারিদ ভাইয়ের পরামর্শ গ্রহণের মাধ্যমে আমি সেই সমস্যা থেকে বের হয়ে পেরেছি।
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial__card">
+        <div class="testimonial__content">
+          <div class="testimonial__header">
+            <img src="close-up-portrait-attractive-male-model-color-flash-light_158595-5106.webp" alt="client" />
+            <div>
+              <h4>মোহাম্মদ রিফাত</h4>
+              <h5>ব্যবসায়ি</h5>
+            </div>
+          </div>
+          <div class="testimonial__ratings">★★★★★</div>
+          <p>
+            কিছু মানুষ আমার একটি জায়গা দখল করে কিছু জাল কাগজ পত্রের মাধ্যমে  সেটাকে নিজের বলে দাবি করছিল,, তবে শারিদ ভাইয়ে পরামর্শে আমি আমার জমি ফিরে পেয়েছি।
+            ধন্যবাদ শারিদ ভাই।
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial__card">
+        <div class="testimonial__content">
+          <div class="testimonial__header">
+            <img src="close-up-portrait-young-male-indian-freelancer-fast-food-cafe-handsome-head-asian-man-wear-shirt-comfortable-coffee-shop-shows-two-fingers-sign_627829-1370.jpg" alt="client" />
+            <div>
+              <h4>লাবিব হোসাইন</h4>
+              <h5>ইঞ্জিনিয়ার </h5>
+            </div>
+          </div>
+          <div class="testimonial__ratings">★★★★★</div>
+          <p>
+       পারিবারিক সম্পত্তি নিয়ে কিছু সমস্যা হয়েছিল,, আমি প্রায় আশা ছেড়েই দিয়েছিলাম,, তবে শারিদ ভাইয়ের সাহায়তায় আমি আমার সম্পদ ফিরে পেয়েছি। 
+       ধন্যবাদ শারিদ ভাই।
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial__card">
+        <div class="testimonial__content">
+          <div class="testimonial__header">
+            <img src="neon-portrait-young-attractive-man_158595-5135.webp" alt="client" />
+            <div>
+              <h4>রাকিব হোসাইন</h4>
+              <h5>সাবেক শিক্ষক</h5>
+            </div>
+          </div>
+          <div class="testimonial__ratings">★★★★★</div>
+          <p>
+            গত ৪ বছর ধরে আমি নির্দশ হওয়ার পরেও একটি মামলায় ফেসে ছিলাম।
+            তবে আলহামদুলিল্লাহ শারিদ ভাইয়ের পরামর্শে আমি এই সমস্যা থেকে বের হতে পেরেছি।
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial__card">
+        <div class="testimonial__content">
+          <div class="testimonial__header">
+            <img src="portrait-male-tourist-visiting-great-wall-china_23-2151261922.webp" alt="client" />
+            <div>
+              <h4>কনক হাসান</h4>
+              <h5>স্টুডেন্ট</h5>
+            </div>
+          </div>
+          <div class="testimonial__ratings">★★★★★</div>
+          <p>
+          নির্দশ হওয়ার পরেও কিছু সমস্যার কারনে একটি কেস এ ফেসে ছিলাম,,তবে একজন আমাকে শারিদ ভাইয়ের সাথে পরিচয় করায় দেয়,,তারপর শারিদ ভাইয়ের থেকে পরামর্শ গ্রহণের মাধ্যমে আমি সেই সমস্যা থেকে মুক্তি পেয়েছি।
+          আলহামদুলিল্লাহ। 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <br>
+  <br>
+  
+  
+  
+  
+
+   
+      <!--blog part-->
+    
+   
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <!-- 
+    - #FOOTER
+  -->
+  
+  
+  
+      <footer class="footer">
+      <div class="footer-container">
+        <!-- Contact Section -->
+        <div class="footer-section contact-info">
+          <h3>Contact Info</h3>
+          <p>Email: shahin0102alom@gmail.com</p>
+          <p>Phone: +880 1676-509381</p>
+        </div>
+
+        <!-- Address Section -->
+        <div class="footer-section address">
+          <h3>Address</h3>
+          <p>123 Street Dinajpur, Bangladesh </p>
+        </div>
+
+        <!-- Opening Hours Section -->
+        <div class="footer-section hours">
+          <h3>Opening Hours</h3>
+          <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+          <p>Saturday - Sunday: Closed</p>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="footer-section social">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li><a href="#" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; SHAHIN WEB SOLUTIONS. All rights reserved.</p>
+      </div>
+    </footer>
+  
+  
+  
+  
+  
+
+
+    <!-- Footer Section End Here -->
+
+
+  <!-- 
+    - custom js link
+  -->
+  
+  
+
+  <script src="main.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  
+  <!-- Include Swiper's JS -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
